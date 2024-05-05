@@ -1,11 +1,11 @@
 {
   "users": [
     {
-      "email": "mr.khasanov02@gmail.com",
+      "email": "superadmin@gmail.com",
       "password": "$2a$10$qzUq4ZXW48r/VkH8QW3TgebaFvkos5ZaOe5Lq6hgrj3iDhNz5pEQq",
       "firstName": "Laziz",
       "lastName": "Hasanov",
-      "gender": "Erkak",
+      "status": true,
       "birth": "2000-10-01T19:00:00.000Z",
       "createdTime": "2000-10-01T19:00:00.000Z",
       "role": "@super_admin",
