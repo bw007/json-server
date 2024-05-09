@@ -10,6 +10,28 @@
       "createdTime": "2000-10-01T19:00:00.000Z",
       "role": "@super_admin",
       "id": 1
+    },
+    {
+      "email": "usmon@mail.ru",
+      "password": "$2a$10$qLWzqb4g1VqXStJ2KsNDze3Q9IsUk3WiClU4LNeO3qhs8QwEyOAk2",
+      "role": 1,
+      "firstName": "Usmon",
+      "lastName": "Azimov",
+      "birth": "2024-05-07T19:00:00.000Z",
+      "createdTime": "2024-05-09T08:00:19.643Z",
+      "status": false,
+      "id": 2
+    },
+    {
+      "email": "nozima@example.com",
+      "password": "$2a$10$yj/0E2OoX2Znfa8Em.zDBe9oVXzbVObgqQ3Fcp225ykzjY1MJ6ARK",
+      "role": 0,
+      "firstName": "Nozima",
+      "lastName": "Hamidova",
+      "birth": "2024-04-30T19:00:00.000Z",
+      "createdTime": "2024-05-09T08:00:57.472Z",
+      "status": false,
+      "id": 3
     }
   ],
   "products": [],
