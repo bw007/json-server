@@ -29,7 +29,7 @@
     },
     {
       "email": "a@a.ru",
-      "password": "$2a$10$8/mnHnjzKdsn54exCl08u.Fg3wVB.r5rR0pkmbLHkAn.kMCzKqNDy",
+      "password": "$2a$10$DlmtqGaVS8YX7UdJi/f.tuaq6eXQfFU4cMUo99cnJ77T8jiBx6i8W",
       "role": 0,
       "firstName": "Usmon",
       "lastName": "Azimov",
@@ -49,7 +49,7 @@
       "createdTime": "2024-05-11T17:03:59.175Z",
       "status": false,
       "id": 3,
-      "password": "$2a$10$DEHptU4MPdFBpaC/cTWiT.8sHXMwHs7YacbZ48x2nYbpHPS6S2h1W"
+      "password": "$2a$10$lRGLLtHRrqH7FaIm8FNGJuDMeSlH91FEH/K1P34aGo3F9nV6qyoQi"
     }
   ],
   "avatars": [
