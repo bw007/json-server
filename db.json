@@ -38,7 +38,64 @@
     }
   ],
   "avatars": [],
-  "orders": [],
+  "orders": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "phone": "901234567",
+      "phoneReserve": "901234567",
+      "name": "Arduino UNO",
+      "link": "http://www.alibaba.com",
+      "price": 120000,
+      "payment": 45000,
+      "status": 0,
+      "createdTime": "2024-05-23T04:51:22.435Z",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "firstName": "Laziz",
+      "lastName": "Hasanov",
+      "phone": "901234567",
+      "phoneReserve": "901122334",
+      "name": "Asus TUF DASH F15",
+      "link": "http://www.aliaba.com",
+      "price": 12000000,
+      "payment": 5000000,
+      "status": 0,
+      "createdTime": "2024-05-23T11:44:11.019Z",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "firstName": "Usmon",
+      "lastName": "Azimov",
+      "phone": "881236654",
+      "phoneReserve": "911552356",
+      "name": "RGB Keyboard",
+      "link": "http://www.alibaba.com",
+      "price": 1000000,
+      "payment": 300000,
+      "status": 0,
+      "createdTime": "2024-05-23T11:48:01.208Z",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "firstName": "Nozima",
+      "lastName": "Karimova",
+      "phone": "901236547",
+      "phoneReserve": "934561236",
+      "name": "Arduino NANO",
+      "link": "http://www.alibaba.com",
+      "price": 120000,
+      "payment": 80000,
+      "status": 0,
+      "createdTime": "2024-05-23T11:50:06.157Z",
+      "userId": 3,
+      "id": 4
+    }
+  ],
   "order-imgs": [],
   "transactions": []
 }
