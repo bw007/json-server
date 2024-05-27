@@ -29,7 +29,32 @@
     }
   ],
   "avatars": [],
-  "orders": [],
+  "orders": [
+    {
+      "firstName": "Usmon",
+      "lastName": "Azimov",
+      "phone": "901234566",
+      "phoneReserve": "901234567",
+      "name": "RBG Keyboard",
+      "link": "#",
+      "price": 800000,
+      "payment": 150000,
+      "status": 0,
+      "createdTime": "2024-05-27T11:51:41.132Z",
+      "userId": 1,
+      "id": 1
+    }
+  ],
   "order-imgs": [],
-  "payments": []
+  "payments": [
+    {
+      "order": "RBG Keyboard",
+      "money": 150000,
+      "client": "Usmon Azimov",
+      "createdTime": "2024-05-27T11:51:41.250Z",
+      "userId": 1,
+      "orderId": 1,
+      "id": 1
+    }
+  ]
 }
