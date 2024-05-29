@@ -1,8 +1,8 @@
 {
   "users": [
     {
-      "email": "super@gmail.com",
-      "password": "$2a$10$ih9hTkKy9mkc7DWyJDGFBucV58trn5Obv8yN4MirF6uFc3oZCTHGC",
+      "email": "super@example.com",
+      "password": "$2a$10$0YgEj7/symY1NM7EB3wYOOO9wUgZ.CziFSLKZ85xExok9OPee/jeK",
       "firstName": "Laziz",
       "lastName": "Hasanov",
       "status": true,
@@ -11,124 +11,58 @@
       "createdTime": "2000-10-01T19:00:00.000Z",
       "role": "@super_admin",
       "id": 1
+    },
+    {
+      "email": "usmon@outlook.com",
+      "password": "$2a$10$oiztxsehvai4NinXkRe2vuuUzMEHkVQGAP6LUZBpIprl6/yMpm2mu",
+      "firstName": "Usmon",
+      "lastName": "Karimov",
+      "role": 0,
+      "birth": "2024-05-07T19:00:00.000Z",
+      "createdTime": "2024-05-29T11:16:02.634Z",
+      "status": false,
+      "id": 2
+    },
+    {
+      "email": "sadiya@gmail.com",
+      "password": "$2a$10$9wAJx13OQsZeKU5fB7exDeqndk0GfCJzvzX3hKasgoOm2/QtKaUf2",
+      "firstName": "Sadiya",
+      "lastName": "Malik",
+      "role": 1,
+      "birth": "2024-04-30T19:00:00.000Z",
+      "createdTime": "2024-05-29T11:25:07.251Z",
+      "status": false,
+      "id": 3
     }
   ],
   "avatars": [],
   "orders": [
     {
-      "firstName": "Usmonjon",
-      "lastName": "Azimov",
-      "phone": "901234566",
-      "phoneReserve": "901234567",
-      "name": "RBG Keyboard",
-      "link": "#",
-      "price": 800000,
-      "payment": 800000,
-      "status": 0,
-      "createdTime": "2024-05-27T11:51:41.132Z",
-      "userId": 1,
-      "id": 1
-    },
-    {
       "firstName": "Laziz",
       "lastName": "Hasanov",
-      "phone": "901234567",
-      "phoneReserve": "901234567",
-      "name": "Arduino UNO",
+      "phone": "+998 (75) 123-45-67",
+      "phoneReserve": "+998 (88) 123-45-67",
+      "name": "RGB Keyboard",
       "link": "#",
-      "price": 120000,
-      "payment": 45000,
+      "price": 950000,
+      "payment": 150000,
       "status": 0,
-      "createdTime": "2024-05-29T02:14:56.270Z",
-      "userId": 1,
-      "id": 2
-    },
-    {
-      "firstName": "Nozima",
-      "lastName": "Karimova",
-      "phone": "901234567",
-      "phoneReserve": "901234567",
-      "name": "Asus TUF DASH F15",
-      "link": "#",
-      "price": 12000000,
-      "payment": 12000000,
-      "status": 0,
-      "createdTime": "2024-05-29T02:29:44.275Z",
-      "userId": 1,
-      "id": 3
+      "id": "1716982623465",
+      "createdTime": "2024-05-29T11:37:03.465Z",
+      "userId": 1
     }
   ],
   "order-imgs": [],
   "payments": [
     {
-      "order": "RBG Keyboard",
-      "money": 200000,
-      "price": 800000,
-      "client": "Usmonjon Azimov",
-      "createdTime": "2024-05-29T02:38:02.969Z",
-      "userId": 1,
-      "orderId": 1,
-      "id": 1
-    },
-    {
-      "order": "Asus TUF DASH F15",
-      "money": 500000,
-      "price": 12000000,
-      "client": "Nozima Karimova",
-      "createdTime": "2024-05-29T02:38:09.177Z",
-      "userId": 1,
-      "orderId": 3,
-      "id": 2
-    },
-    {
-      "order": "RBG Keyboard",
-      "money": 600000,
-      "price": 800000,
-      "client": "Usmonjon Azimov",
-      "createdTime": "2024-05-29T02:38:18.770Z",
-      "userId": 1,
-      "orderId": 1,
-      "id": 3
-    },
-    {
-      "order": "Arduino UNO",
-      "money": 45000,
-      "price": 120000,
+      "order": "RGB Keyboard",
+      "price": 950000,
+      "money": 150000,
       "client": "Laziz Hasanov",
-      "createdTime": "2024-05-29T02:38:40.663Z",
+      "createdTime": "2024-05-29T11:37:03.592Z",
       "userId": 1,
-      "orderId": 2,
-      "id": 4
-    },
-    {
-      "order": "Asus TUF DASH F15",
-      "money": 1000000,
-      "price": 12000000,
-      "client": "Nozima Karimova",
-      "createdTime": "2024-05-29T02:41:31.479Z",
-      "userId": 1,
-      "orderId": 3,
-      "id": 5
-    },
-    {
-      "order": "Asus TUF DASH F15",
-      "money": 500000,
-      "price": 12000000,
-      "client": "Nozima Karimova",
-      "createdTime": "2024-05-29T02:41:37.823Z",
-      "userId": 1,
-      "orderId": 3,
-      "id": 6
-    },
-    {
-      "order": "Asus TUF DASH F15",
-      "money": 10000000,
-      "price": 12000000,
-      "client": "Nozima Karimova",
-      "createdTime": "2024-05-29T02:41:48.338Z",
-      "userId": 1,
-      "orderId": 3,
-      "id": 7
+      "orderId": "1716982623465",
+      "id": 1
     }
   ]
 }
