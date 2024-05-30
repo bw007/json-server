@@ -1,8 +1,8 @@
 {
   "users": [
     {
-      "email": "super@example.com",
-      "password": "$2a$10$0YgEj7/symY1NM7EB3wYOOO9wUgZ.CziFSLKZ85xExok9OPee/jeK",
+      "email": "super@gmail.com",
+      "password": "$2a$10$z5iTUw2nigkS0ng8OxWZIuimmAtQurV8ET4NTeJdFobbJv1z1ZBNm",
       "firstName": "Laziz",
       "lastName": "Hasanov",
       "status": true,
