@@ -2,7 +2,7 @@
   "users": [
     {
       "email": "super@gmail.com",
-      "password": "$2a$10$z5iTUw2nigkS0ng8OxWZIuimmAtQurV8ET4NTeJdFobbJv1z1ZBNm",
+      "password": "$2a$10$PI4Znz.q0yOzQLD7E815FO1OLuXSTdtu.7XenTfL2bduhG.gQBs2O",
       "firstName": "Laziz",
       "lastName": "Hasanov",
       "status": true,
@@ -10,59 +10,115 @@
       "avatar": [],
       "createdTime": "2000-10-01T19:00:00.000Z",
       "role": "@super_admin",
-      "id": 1
-    },
-    {
-      "email": "usmon@outlook.com",
-      "password": "$2a$10$oiztxsehvai4NinXkRe2vuuUzMEHkVQGAP6LUZBpIprl6/yMpm2mu",
-      "firstName": "Usmon",
-      "lastName": "Karimov",
-      "role": 0,
-      "birth": "2024-05-07T19:00:00.000Z",
-      "createdTime": "2024-05-29T11:16:02.634Z",
-      "status": false,
-      "id": 2
+      "id": "1716982623465as"
     },
     {
       "email": "sadiya@gmail.com",
-      "password": "$2a$10$9wAJx13OQsZeKU5fB7exDeqndk0GfCJzvzX3hKasgoOm2/QtKaUf2",
+      "password": "$2a$10$PIHnuq9KHCnl91SooGYnzezVNB7MztMCD3EQ2nncmaWhwVtzr4B2i",
+      "avatar": [],
       "firstName": "Sadiya",
-      "lastName": "Malik",
+      "lastName": "Azimova",
       "role": 1,
       "birth": "2024-04-30T19:00:00.000Z",
-      "createdTime": "2024-05-29T11:25:07.251Z",
-      "status": false,
-      "id": 3
+      "createdTime": "2024-05-30T18:02:42.691Z",
+      "id": 1717092162691,
+      "status": false
+    },
+    {
+      "email": "usmon@mail.ru",
+      "password": "$2a$10$EppOGiKz0qBp3IM7SnG8/ecAVQ/k1Ihr8lHhjlWFQwkpqm0vMEDDS",
+      "avatar": [],
+      "firstName": "Usmon",
+      "lastName": "Karimov",
+      "role": 0,
+      "birth": "2024-04-30T19:00:00.000Z",
+      "createdTime": "2024-05-30T18:50:24.360Z",
+      "id": 1717095024360,
+      "status": false
     }
   ],
   "avatars": [],
   "orders": [
     {
       "firstName": "Laziz",
-      "lastName": "Hasanov",
-      "phone": "+998 (75) 123-45-67",
-      "phoneReserve": "+998 (88) 123-45-67",
-      "name": "RGB Keyboard",
+      "lastName": "Hasan",
+      "phone": "+998 (33) 123-45-67",
+      "phoneReserve": "+998 (33) 123-45-67",
+      "name": "Arduino NANO",
       "link": "#",
-      "price": 950000,
-      "payment": 150000,
+      "price": 120000,
+      "payment": 70000,
       "status": 0,
-      "id": "1716982623465",
-      "createdTime": "2024-05-29T11:37:03.465Z",
-      "userId": 1
+      "id": "1717093421137",
+      "createdTime": "2024-05-30T18:23:41.137Z",
+      "userId": "1716982623465as"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "phone": "+998 (11) 111-11-11",
+      "phoneReserve": "+998 (12) 121-21-21",
+      "name": "HP Victus 5",
+      "link": "#",
+      "price": 9000000,
+      "payment": 3100000,
+      "status": 0,
+      "id": "1717095149719",
+      "createdTime": "2024-05-30T18:52:29.719Z",
+      "userId": 1717095024360
     }
   ],
   "order-imgs": [],
   "payments": [
     {
-      "order": "RGB Keyboard",
-      "price": 950000,
-      "money": 150000,
+      "order": "Arduino NANO",
+      "price": 120000,
+      "money": 45000,
       "client": "Laziz Hasanov",
-      "createdTime": "2024-05-29T11:37:03.592Z",
-      "userId": 1,
-      "orderId": "1716982623465",
-      "id": 1
+      "createdTime": "2024-05-30T18:23:41.215Z",
+      "id": "1717093421215",
+      "userId": "1716982623465as",
+      "orderId": "1717093421137"
+    },
+    {
+      "id": "1717094855579",
+      "order": "Arduino NANO",
+      "money": 15000,
+      "price": 120000,
+      "client": "Laziz Hasanov",
+      "createdTime": "2024-05-30T18:47:35.579Z",
+      "userId": "1716982623465as",
+      "orderId": "1717093421137"
+    },
+    {
+      "id": "1717094960341",
+      "order": "Arduino NANO",
+      "money": 10000,
+      "price": 120000,
+      "client": "Laziz Hasan",
+      "createdTime": "2024-05-30T18:49:20.341Z",
+      "userId": "1716982623465as",
+      "orderId": "1717093421137"
+    },
+    {
+      "order": "HP Victus 5",
+      "price": 9000000,
+      "money": 3000000,
+      "client": "John Doe",
+      "createdTime": "2024-05-30T18:52:29.794Z",
+      "id": "1717095149794",
+      "userId": 1717095024360,
+      "orderId": "1717095149719"
+    },
+    {
+      "id": "1717095179400",
+      "order": "HP Victus 5",
+      "money": 100000,
+      "price": 9000000,
+      "client": "John Doe",
+      "createdTime": "2024-05-30T18:52:59.400Z",
+      "userId": 1717095024360,
+      "orderId": "1717095149719"
     }
   ]
 }
