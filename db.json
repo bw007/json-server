@@ -41,13 +41,13 @@
   "orders": [
     {
       "firstName": "Laziz",
-      "lastName": "Hasan",
+      "lastName": "Hasanov",
       "phone": "+998 (33) 123-45-67",
       "phoneReserve": "+998 (33) 123-45-67",
       "name": "Arduino NANO",
       "link": "#",
       "price": 120000,
-      "payment": 70000,
+      "payment": 80000,
       "status": 0,
       "id": "1717093421137",
       "createdTime": "2024-05-30T18:23:41.137Z",
@@ -66,6 +66,34 @@
       "id": "1717095149719",
       "createdTime": "2024-05-30T18:52:29.719Z",
       "userId": 1717095024360
+    },
+    {
+      "firstName": "Usmon",
+      "lastName": "Karimov",
+      "phone": "+998 (12) 345-67-87",
+      "phoneReserve": "+998 (12) 345-67-88",
+      "name": "RGB Keyboard",
+      "link": "#",
+      "price": 950000,
+      "payment": 150000,
+      "status": 0,
+      "id": "1717224374467",
+      "createdTime": "2024-06-01T06:46:14.467Z",
+      "userId": "1716982623465as"
+    },
+    {
+      "firstName": "Sadiya",
+      "lastName": "Karimova",
+      "phone": "+998 (12) 345-67-87",
+      "phoneReserve": "+998 (12) 345-67-88",
+      "name": "Power Bank",
+      "link": "#",
+      "price": 800000,
+      "payment": 150000,
+      "status": 0,
+      "id": "1717225210880",
+      "createdTime": "2024-06-01T07:00:10.880Z",
+      "userId": 1717092162691
     }
   ],
   "order-imgs": [],
@@ -119,6 +147,36 @@
       "createdTime": "2024-05-30T18:52:59.400Z",
       "userId": 1717095024360,
       "orderId": "1717095149719"
+    },
+    {
+      "id": "1717202273439",
+      "order": "Arduino NANO",
+      "money": 10000,
+      "price": 120000,
+      "client": "Laziz Hasan",
+      "createdTime": "2024-06-01T00:37:53.439Z",
+      "userId": "1716982623465as",
+      "orderId": "1717093421137"
+    },
+    {
+      "order": "RGB Keyboard",
+      "price": 950000,
+      "money": 150000,
+      "client": "Usmon Karimov",
+      "createdTime": "2024-06-01T06:46:14.524Z",
+      "id": "1717224374524",
+      "userId": "1716982623465as",
+      "orderId": "1717224374467"
+    },
+    {
+      "order": "Power Bank",
+      "price": 800000,
+      "money": 150000,
+      "client": "Sadiya Karimova",
+      "createdTime": "2024-06-01T07:00:10.924Z",
+      "id": "1717225210924",
+      "userId": 1717092162691,
+      "orderId": "1717225210880"
     }
   ]
 }
